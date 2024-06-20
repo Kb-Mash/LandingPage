@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li a,
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #f4f4f4;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /*display: flex;*/
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    padding: 10px;
+    display: inline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.display {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.services {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #fff;
+    border: 2px solid #fff; /* Adjust the border color and width as needed */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional: to give the border rounded corners */
+}
